@@ -1,0 +1,61 @@
+                   OMEGA public alpha release                
+
+=================================================================
+======== Open Microscopy Environment inteGrated Analysis ========
+=================================================================		 
+
+Created by the OMEGA team: Caterina Strambio De Castillia, 
+Jasmine Clark, Andrea Danani, Vanni Galli, Raffaello Giulietti, 
+Loris Grossi, Eric Hunter, Tiziano Leidi, Jeremy Luban, Massimo 
+Maiolo, Lara Pereira, Alex Rigano and Mario Valle.
+
+Copyright (C) 2011 OMEGA TEAM
+OMEGA is licensed and distributed under the LGPL License version 
+3.
+
+
+The OMEGA team gratefully acknowledges Kaloyan Enimanev, Bernd 
+Rinn, Peter Kunszt, Ela Hunt and the entire openBIS development
+team for sharing their expertise and providing invaluable help
+for integrating this software with the openBIS platform.
+
+For more information about openBIS refer to: Kozak, K; Bauch, A; 
+Pylak, T; Rinn, B (2010). Towards a comprehensive open source 
+platform for management and analysis of High Content Screening 
+data. European Pharmaceutical Review, 4:34-38.
+
+This project was funded in part by Systemsx.ch as part of the 
+Systemsx.ch Biology IT (SyBIT) project, by the European 
+Commission 7th Framework Programme for Scientific Research 
+(Project number: HEALTH-2007-2.3.2, GA number: 
+HEALTH-F3-2008-201,032 to C. S.-D.-C.) and by the Information 
+Systems and Networking Institute (ISIN) of the Department of 
+Innovative Technologies (DTI) of the University of Applied 
+Science of Southern Switzerland (SUPSI).
+
+
+=================================================================                                                     			
+====================== Key people contacts ======================
+=================================================================
+
+Caterina Strambio De Castillia: caterina.strambio@unige.ch
+Vanni Galli:                    vanni.galli@supsi.ch
+Raffaello Giulietti:            raffaello.giulietti@supsi.ch
+Mario Valle:                    mvalle@cscs.ch
+
+
+=================================================================                                                                                             										
+============================ License ============================
+=================================================================
+
+This program is free software: you can redistribute it and/or 
+modify it under the terms of the GNU Lesser General Public 
+License as published by the Free Software Foundation, either 
+version 3 of the License, or (at your option) any later version. 
+This program is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+General Public License for more details. See the GNU LGPL License 
+for more details. You should have received a copy of the LGPL 
+License along with this program. 
+If not, see http://www.gnu.org/licenses/. 

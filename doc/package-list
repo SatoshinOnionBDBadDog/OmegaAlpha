@@ -1,0 +1,14 @@
+ch.supsi.omega.common
+ch.supsi.omega.dll
+ch.supsi.omega.exploration
+ch.supsi.omega.gui
+ch.supsi.omega.omero
+ch.supsi.omega.openbis
+ch.supsi.omega.review
+ch.supsi.omega.segmentation
+ch.supsi.omega.segmentation.label
+ch.supsi.omega.segmentation.overview
+ch.supsi.omega.segmentation.pattern
+ch.supsi.omega.segmentation.trajectory
+ch.supsi.omega.tracking
+ch.supsi.omega.tracking.parameters

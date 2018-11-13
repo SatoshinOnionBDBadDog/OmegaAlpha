@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project OMEGA with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/galliva/workspace/OMEGA/dist/OMEGA.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="ch.supsi.omega.gui.OMEGA"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ junit.jar org.hamcrest.core_1.1.0.v20090501071000.jar GalLibrary.jar jfreechart-1.0.13.jar jcommon-1.0.16.jar dss_client.jar openbis_screening_api-batteries_included.jar commons-io.jar flanagan.jar omero_client.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="C:/Users/galliva/workspace/OMEGA/bin"/>
+        	<!--<zipfileset dir="C:\Program Files\eclipse\plugins\org.junit_4.8.2.v4_8_2_v20110321-1705" includes="junit.jar"/>-->
+            <zipfileset dir="C:\Program Files\eclipse\plugins" includes="org.hamcrest.core_1.1.0.v20090501071000.jar"/>
+            <zipfileset dir="C:\Users\galliva\workspace\jars" includes="GalLibrary.jar"/>
+            <zipfileset dir="C:\Users\galliva\workspace\jars\jfreechart-1.0.13\lib" includes="jfreechart-1.0.13.jar"/>
+            <zipfileset dir="C:\Users\galliva\workspace\jars\jfreechart-1.0.13\lib" includes="jcommon-1.0.16.jar"/>
+            <zipfileset dir="C:\Users\galliva\workspace\jars\openbis" includes="dss_client.jar"/>
+            <zipfileset dir="C:\Users\galliva\workspace\jars\openbis" includes="openbis_screening_api-batteries_included.jar"/>
+            <zipfileset dir="C:\Users\galliva\workspace\jars" includes="commons-io.jar"/>
+            <zipfileset dir="C:\Users\galliva\workspace\jars" includes="flanagan.jar"/>
+            <zipfileset dir="C:\Users\galliva\workspace\jars" includes="omero_client.jar"/>
+        </jar>
+    </target>
+</project>

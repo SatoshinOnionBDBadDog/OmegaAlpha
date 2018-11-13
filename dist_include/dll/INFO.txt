@@ -1,0 +1,5 @@
+This folder was updated on 2012-12-18.
+
+The SPT wrapper DLL was updated and compilated on 2012-12-18 in order to support the new version* of the ParticleTrackerDLL (from 2012-11-21).
+
+*: This new version expose also the intensity of the particle's signal.

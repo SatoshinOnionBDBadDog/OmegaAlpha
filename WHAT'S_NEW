@@ -1,0 +1,54 @@
+OMEGA public alpha release 20121220
+***********************************
+
+- aggiornato il software* secondo la roadmap presente al seguente indirizzo https://wiki.systemsx.ch/display/omega/2011-11-29_ROAD-MAP+DRAFT
+
+*: alcuni punti, in particolare "Make OMEGA aware of OMERO projects" e "Use latest displayed, produced, run data as a default to users 
+before asking to select new Image, Trajectory data etc.", non sono stati completati
+
+
+OMEGA public alpha release 20121130
+***********************************
+
+- SPT: modifiche alla GUI
+- RVE: aggiunte le error bars nel grafico SMSS vs D*
+- RVE: modifiche alla GUI
+
+*: questo ha previsto la creazione delle classi per l'estrazione della std dev dai file CSV di MatLab e 
+   la creazione di classi atte all'interpolazione in 4D
+
+
+OMEGA public alpha release 20121101
+***********************************
+
+- ISR: aggiunto slider per la dimensione Z, possibilità di scegliere il piano Z voluto prima di lanciare SPT
+- SPT: nuova DLL con valori di SNR
+- SPT: alla fine dell'algoritmo l'utente viene informato del valore minimo di SNR
+- RVE: possibilità di esportare anche le stats delle velocità
+- RVE: display del 'minimum detectable D' calcolato con il metodo di Martin*
+
+*: il valore dipende dai livelli di SNR calcolati dalla DLL di SPT, questi ultimi sono da testare
+
+
+OMEGA public alpha release 20120220
+***********************************
+
+- RVE:  nel grafico delle velocità i colori non cambiano più se si selezionano / deselezionano delle tracce
+- RVE:  nel grafico delle velocità non è più presente l'autoscaling
+- RVE:  sono state inserite le unità di misura in tutte le finestre
+- RVE:  migliorato il grafico SMSS vs D
+- SPT:  cambiato il layout della finestra principale
+- TS:   migliorata la finestra di overview
+
+
+OMEGA public alpha release 20120208
+***********************************
+
+- RVE: 	spostato il bottone per lanciare il grafico del calcolo delle velocità
+- RVE: 	il grafico MSD utilizza ora i secondi anziché unità arbitrarie, le unità corrette vengono indicate sul grafico
+- RVE: 	il grafico MSS mostra ora un'area grigia tra Y = X (slope 1.0) e Y = 0.5 * X (slope 0.5)
+- RVE: 	il grafico delle velocità mostra ora anche le statistiche delle velocità per le varie traiettorie, 
+		possibilità di cliccare su una riga della nuova finestra per visualizzare solo quella traiettoria sul grafico
+- RVE:	appare il frame delle "stats" (mean, median, std dev) anche per il grafico di MSS
+- RVE:	corretto un bug che portava ad un errato calcolo delle "stats" per MSD
+- TS :	aggiunto il nome del file di segmentazione corrente nella topbar della finestra principale (quando si salva e si carica)

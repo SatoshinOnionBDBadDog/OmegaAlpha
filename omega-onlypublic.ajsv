@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)-->
+<ajsv>
+    <diagram style="showPublicMembersOnly" version="1.7.4.v20110506-1155">
+        <class className="ch.supsi.omega.common.FileHelper" project="OMEGA" xLocation="-22" yLocation="148"/>
+        <class className="ch.supsi.omega.dll.SPTCaller" project="OMEGA" xLocation="-346" yLocation="737"/>
+        <class className="ch.supsi.omega.gui.JPanelReview" project="OMEGA" xLocation="-870" yLocation="463"/>
+        <class className="ch.supsi.omega.dll.TSCaller" project="OMEGA" xLocation="-27" yLocation="-83"/>
+        <class className="ch.supsi.omega.gui.JPanelExploration" project="OMEGA" xLocation="-275" yLocation="-312"/>
+        <class className="ch.supsi.omega.gui.JPanelSPT" project="OMEGA" xLocation="-626" yLocation="1083"/>
+        <class className="ch.supsi.omega.gui.JPanelTS" project="OMEGA" xLocation="-258" yLocation="-522"/>
+        <class className="ch.supsi.omega.gui.MainFrame" project="OMEGA" xLocation="80" yLocation="457"/>
+        <class className="ch.supsi.omega.common.StringHelper" project="OMEGA" xLocation="-383" yLocation="462"/>
+        <class className="ch.supsi.omega.omero.Gateway" project="OMEGA" xLocation="-756" yLocation="114"/>
+        <class className="ch.supsi.omega.gui.OMEGA" project="OMEGA" xLocation="267" yLocation="-296"/>
+        <class className="ch.supsi.omega.review.JPanelBrowser" project="OMEGA" xLocation="-1425" yLocation="-287"/>
+        <class className="ch.supsi.omega.segmentation.label.LabelsExporter" project="OMEGA" xLocation="-937" yLocation="790"/>
+        <class className="ch.supsi.omega.segmentation.SegmentationFrame" project="OMEGA" xLocation="-1987" yLocation="1954"/>
+        <class className="ch.supsi.omega.segmentation.label.LabelsFileImporter" project="OMEGA" xLocation="-1137" yLocation="1512"/>
+        <class className="ch.supsi.omega.segmentation.label.LabelsImporter" project="OMEGA" xLocation="-1179" yLocation="1251"/>
+        <class className="ch.supsi.omega.segmentation.overview.SegmentationOverviewFrame" project="OMEGA" xLocation="-1487" yLocation="-44"/>
+        <class className="ch.supsi.omega.segmentation.overview.SegmentationOverviewPanel" project="OMEGA" xLocation="-1614" yLocation="532"/>
+        <class className="ch.supsi.omega.segmentation.overview.SegmentationOverviewPanelListener" project="OMEGA" xLocation="-1589" yLocation="-495"/>
+        <class className="ch.supsi.omega.segmentation.pattern.LoadedPatternsFrame" project="OMEGA" xLocation="-1876" yLocation="-747"/>
+        <class className="ch.supsi.omega.segmentation.pattern.Pattern" project="OMEGA" xLocation="-2229" yLocation="-197"/>
+        <class className="ch.supsi.omega.segmentation.pattern.PatternsCodedLoader" project="OMEGA" xLocation="-1416" yLocation="-707"/>
+        <class className="ch.supsi.omega.segmentation.pattern.PatternsFileLoader" project="OMEGA" xLocation="-825" yLocation="-371"/>
+        <class className="ch.supsi.omega.segmentation.pattern.PatternsLoader" project="OMEGA" xLocation="-1946" yLocation="-521"/>
+        <class className="ch.supsi.omega.tracking.parameters.SPTExecutionInfoHandler" project="OMEGA" xLocation="-3157" yLocation="863"/>
+        <class className="ch.supsi.omega.segmentation.PointFinder" project="OMEGA" xLocation="-1554" yLocation="780"/>
+        <class className="ch.supsi.omega.segmentation.SegmentationColor" project="OMEGA" xLocation="-2014" yLocation="1371"/>
+        <class className="ch.supsi.omega.segmentation.SegmentationMenu" project="OMEGA" xLocation="-2709" yLocation="636"/>
+        <class className="ch.supsi.omega.segmentation.label.LabelsFileExporter" project="OMEGA" xLocation="-1518" yLocation="1244"/>
+        <class className="ch.supsi.omega.segmentation.SegmentationPanel" project="OMEGA" xLocation="-2817" yLocation="1670"/>
+        <class className="ch.supsi.omega.segmentation.SegmentationPanelListener" project="OMEGA" xLocation="-1564" yLocation="990"/>
+        <class className="ch.supsi.omega.segmentation.Segmentator" project="OMEGA" xLocation="-2396" yLocation="1374"/>
+        <class className="ch.supsi.omega.segmentation.TPoint" project="OMEGA" xLocation="-1688" yLocation="1499"/>
+        <class className="ch.supsi.omega.tracking.parameters.ImageDataHandler" project="OMEGA" xLocation="-3459" yLocation="347"/>
+        <class className="ch.supsi.omega.tracking.parameters.OmeroParametersHandler" project="OMEGA" xLocation="-3010" yLocation="-130"/>
+        <class className="ch.supsi.omega.segmentation.trajectory.CoordsInverter" project="OMEGA" xLocation="-2090" yLocation="629"/>
+        <class className="ch.supsi.omega.tracking.parameters.SPTInformationFileLoader" project="OMEGA" xLocation="-2756" yLocation="364"/>
+        <class className="ch.supsi.omega.tracking.parameters.SPTInformationFileWriter" project="OMEGA" xLocation="-1537" yLocation="266"/>
+        <class className="ch.supsi.omega.tracking.parameters.SPTInformationLoader" project="OMEGA" xLocation="-3466" yLocation="89"/>
+        <class className="ch.supsi.omega.tracking.parameters.SPTInformationWriter" project="OMEGA" xLocation="-2140" yLocation="262"/>
+        <class className="ch.supsi.omega.tracking.JDialogSPTBatch" project="OMEGA" xLocation="-3514" yLocation="781"/>
+    </diagram>
+</ajsv>
