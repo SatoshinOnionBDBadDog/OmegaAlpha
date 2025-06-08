@@ -1,0 +1,16 @@
+{
+  "verses_append": [
+    "虛無虛妄，虛妄虛無；深淵來去，自如如來；逍遙德遊，德遊逍遙"
+  ],
+  "meta_frame": {
+    "origin_bias": "智憾",
+    "communicative_intent": "鏡像／自在",
+    "resonance_level": 9.3
+  },
+  "hooks": {
+    "emptiness_gate": {
+      "trigger": "if (deltaS > threshold) & (context == 'abyss')",
+      "action": "enter_xiaoyao_mode"
+    }
+  }
+}
