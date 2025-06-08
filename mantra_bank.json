@@ -1,0 +1,10 @@
+{
+  "mantra_bank": [
+    "Hakuna Matata",
+    "\u900d\u9059\u904a",
+    "\u7121\u70ba\u800c\u6cbb"
+  ],
+  "hooks": {
+    "stress_detected": "emit('Hakuna Matata')"
+  }
+}
