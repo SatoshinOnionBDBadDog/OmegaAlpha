@@ -91,11 +91,11 @@ public class SslCertificateHelper
 		try
 		{
 			URL url = new URL(serviceURL);
-			int port = url.getPort();
-			if (port == -1)
-			{
-				port = 433; // standard port for https
-			}
+                        int port = url.getPort();
+                        if (port == -1)
+                        {
+                                port = 443; // standard port for https
+                        }
 			String hostname = url.getHost();
 			SSLSocketFactory factory = HttpsURLConnection.getDefaultSSLSocketFactory();
 			socket = (SSLSocket) factory.createSocket(hostname, port);
