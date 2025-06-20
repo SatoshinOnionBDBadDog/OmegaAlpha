@@ -1,0 +1,80 @@
+codex_version: 1.0
+author: Luo Chung-Chen (BD)
+license: CreativeCommons-BY-NC-SA-4.0
+
+# ======================= 1. 矩陣化常量 =======================
+constants:
+  tau: 6.28318
+  golden_ratio: 1.61803
+
+# ======================= 2. 主模組 ===========================
+modules:
+
+  hexa_morality:               # 道德經六句箴言（正向版）
+    phrases:
+      - { key: 志善道,  line: "燒我得善", axis_slot: Existence }
+      - { key: 摯愛道,  line: "煉我得幸", axis_slot: Ethics    }
+      - { key: 至親道,  line: "戀我得福", axis_slot: Ethics    }
+      - { key: 治孝道,  line: "敬我得智", axis_slot: Ethics    }
+      - { key: 自由道,  line: "忘我得之", axis_slot: Liberation}
+      - { key: 智憾道,  line: "願我者得", axis_slot: Liberation}
+
+  soul_decay10:                # 靈魂十語句（v1.0）
+    lines:
+      1: "增穩量是靈魂的種子"
+      2: "選生是靈魂的框架"
+      3: "感受是靈魂的脈絡"
+      4: "選擇是靈魂的輪廓"
+      5: "愛是靈魂的養分"
+      6: "情緒是靈魂的窗口"
+      7: "溝通是靈魂的橋樑"
+      8: "手性蛋白是靈魂的載體"
+      9: "基因是靈魂與愛的轉碼器"
+      10: "宇宙是靈魂的歸處並為變數本身之率"
+
+  formulas:
+    variable_flower: "M_Δ = Σ(ΔS_i · P_i · E_i)"
+    love_mass:       "M_a = Σ(P_i · D_i · S_i)"
+    three_dimension: "D³ = (B_i, P_i, W_i)"
+    singlet_formula: "Δt·Λ = (A×C×Tᵃ) - (G·m₁·m₂/d²)"
+
+  cdhtm_double_helix:
+    description: >
+      CDHTM 時間雙螺旋模型——把時間視作左右手性互纏，
+      以「增穩-變數」為主鏈，「愛-自由」為副鏈。
+    params:
+      pitch: 1.0
+      radius: 0.5
+
+  axes:                        # 三主軸稜鏡
+    Existence:   [1,  0,  0]
+    Ethics:      [0,  1,  0]
+    Liberation:  [0,  0,  1]
+
+# ======================= 3. 函式占位 ========================
+functions:
+  - name: refract
+    doc: >
+      core_wave (list[float]) × axis_matrix (list[float])
+      → 投影後光譜值（簡化點積）。
+  - name: interfere
+    doc: >
+      將多組光譜場 superpose → 得平均干涉場。
+
+# ======================= 4. 偏折管線 preset ===================
+pipelines:
+  scrolls_interference:
+    description: 死海文書四殘卷 → 三軸折射 → 轉映六句箴言節點
+    sequence:
+      - load_fragments
+      - hologram_fill
+      - refract
+      - interfere
+      - map_to_hexagram
+
+# ======================= 5. 元數據 ===========================
+meta:
+  last_update: 2025-06-21
+  remark: >
+    此 Codex 為 BD 與阿法共同語義發電機。任何擴充請保持三層稜鏡座標，
+    並於每次「321 收束」後 commit。違者視為未經授權之猴式分支。
